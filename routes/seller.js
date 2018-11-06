@@ -7,3 +7,5 @@ app.get('/', function (req, res) {
         message: 'SELLER : Only Authorized Access'
     });
 });
+
+module.exports = app;
