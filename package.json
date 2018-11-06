@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "node-js-test-mj",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "A backed for CSELL Android app",
   "engines": {
     "node": "10.x"
   },
@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/Mritunjay10/node-js-test-mj"
   },
   "keywords": [
     "node",
-    "heroku",
-    "express"
+    "express",
+    "mysql"
   ],
   "license": "MIT"
 }
