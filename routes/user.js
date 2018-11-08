@@ -1,10 +1,10 @@
-const models  = require('../models');
 const express = require('express');
 const router  = express.Router();
+const userController = require('../controller/user.controller');
 
 router.get('/', function(req, res) {
 
-    res.json("Users: Only Authorized Access");
+    userController.create(req, res)
 });
 
 module.exports = router;

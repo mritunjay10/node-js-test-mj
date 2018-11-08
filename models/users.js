@@ -23,7 +23,7 @@ module.exports = function(sequelize, DataTypes) {
     },
     email: {
       type: DataTypes.STRING(50),
-      allowNull: false
+      allowNull: true
     },
     email_verification: {
       type: DataTypes.ENUM('0','1'),
@@ -32,11 +32,11 @@ module.exports = function(sequelize, DataTypes) {
     },
     uuid: {
       type: DataTypes.STRING(500),
-      allowNull: false
+      allowNull: true
     },
     fcm_token: {
       type: DataTypes.STRING(500),
-      allowNull: false
+      allowNull: true
     },
     last_login: {
       type: DataTypes.DATE,
@@ -53,7 +53,8 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true
     }
   }, {
-    tableName: 'users'
+    tableName: 'users',
+    timestamps: false
   });
 
 };
