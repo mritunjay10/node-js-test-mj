@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "qwerty",
+    "username": "indilabz_jeeto",
+    "password": "jeeto@!!@@",
     "database": "csell",
-    "host": "127.0.0.1",
+    "host": "192.185.129.218",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "qwerty",
+    "username": "indilabz_jeeto",
+    "password": "jeeto@!!@@",
     "database": "csell",
-    "host": "127.0.0.1",
+    "host": "192.185.129.218",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "qwerty",
+    "username": "indilabz_jeeto",
+    "password": "jeeto@!!@@",
     "database": "csell",
-    "host": "127.0.0.1",
+    "host": "192.185.129.218",
     "dialect": "mysql"
   }
 }
